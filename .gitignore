@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Terraform
+terraform/.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Lambda build artifacts
+lambda/*.zip
